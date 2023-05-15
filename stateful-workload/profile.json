@@ -1,0 +1,13 @@
+{
+    "features": {
+        "humanitec/annotations": {},
+        "humanitec/containers": {},
+        "humanitec/ingress": {},
+        "humanitec/labels": {},
+        "humanitec/pod-lifecycle": {},
+        "humanitec/replicas": {},
+        "humanitec/service": {},
+        "humanitec/service-account": {},
+        "humanitec/volumes": {}
+    }
+}

@@ -1,0 +1,17 @@
+apiVersion: core.api.humanitec.io/v1
+kind: Definition
+metadata:
+  id: stateful-volume
+object:
+  type: volume
+  driver_type: humanitec/template
+  driver_inputs:
+    values:
+      templates:
+        manifests: |
+          volume.yaml:
+            location: volumes
+            data:
+              name: stateful-volume
+              persistentVolumeClaim:
+                claimName: stateful-volume
