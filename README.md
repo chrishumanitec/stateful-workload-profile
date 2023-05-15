@@ -45,3 +45,4 @@ curl "https://api.humanitec.io/orgs/${HUMANITEC_ORG}/workload-profiles/stateful-
 humctl apply -c /orgs/${HUMANITEC_ORG} -f defs/stateful-volume-def.yaml
 ```
 
+**NOTE: it is necessary to specify matching criteria based on the particular use of the workload profile.**
